@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: #f0f1ff;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
   max-width: 1440px;
   max-height: 1845px;
   margin-inline: auto;
