@@ -57,6 +57,7 @@ header {
   .p_primary {
     @include primary_p;
     padding-bottom: 40px;
+    padding-right: 30px;
   }
   .btn_hero {
     background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
