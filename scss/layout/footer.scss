@@ -1,0 +1,12 @@
+footer {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-secondary;
+  padding-inline: 165px;
+}
+
+.btn_footer {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}

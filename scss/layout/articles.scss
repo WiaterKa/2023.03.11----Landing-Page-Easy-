@@ -1,0 +1,85 @@
+.articles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 140px;
+}
+
+.box_primary {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-inline: 32px;
+  height: 324px;
+  margin-inline: 15px;
+  margin-bottom: 56px;
+
+  @media only screen and (max-width: 768px) {
+    width: 50%;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 800;
+  }
+}
+
+.col-4 {
+  position: relative;
+}
+
+.box_secondary {
+  background: #ffffff;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 15px;
+  height: 324px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-inline: 15px;
+  padding: 32px;
+  margin-bottom: 56px;
+
+  @media only screen and (max-width: 768px) {
+    width: 50%;
+  }
+  h3 {
+    color: $color-secondary;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 24px;
+  }
+  .p_primary {
+    padding-bottom: 24px;
+  }
+  .p_secondary {
+    color: #f74780;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.one::before {
+  @include svgImg("../assets/icon-animation.svg");
+}
+
+.two::before {
+  @include svgImg("../assets/icon-design.svg");
+}
+
+.three::before {
+  @include svgImg("../assets/icon-photography.svg");
+}
+
+.four::before {
+  @include svgImg("../assets/icon-crypto.svg");
+}
+
+.five::before {
+  @include svgImg("../assets/icon-business.svg");
+}

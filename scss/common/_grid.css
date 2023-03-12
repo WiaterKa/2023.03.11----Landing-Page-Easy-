@@ -13,7 +13,6 @@
 .container .row [class*="col-"] {
   min-height: 1px;
   width: 8.33333%;
-  padding: 12px;
 }
 
 .container .row .col-1 {

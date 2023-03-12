@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 165px;
+}
+
+.btn {
+  border-radius: 31.5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  width: 167px;
+  height: 63px;
+}
