@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  max-width: 1440px;
+  max-height: 1845px;
+  margin-inline: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+$color-primary: #83869a;
+$color-secondary: #13183f;
+$color-third: #f74780;
+
+@mixin primary_p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: $color-primary;
+}
+
+@mixin svgImg($url) {
+  position: absolute;
+  left: 60px;
+  top: -30px;
+  transform: translateX(-50%);
+  content: url($url);
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+
+header {
+  .btn_hero:hover {
+    opacity: 0.6;
+  }
+}
