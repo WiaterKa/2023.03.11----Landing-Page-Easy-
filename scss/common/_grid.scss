@@ -1,9 +1,10 @@
 $columns: 12;
 $column-base-width: 100% / $columns;
 
-// @media only screen and (max-width: 768px) {
-//   $columns: 8;
-// }
+@media only screen and (max-width: 990px) {
+  $columns: 8;
+  $column-base-width: 100% / $columns;
+}
 
 .container {
   width: 100%;
@@ -17,12 +18,24 @@ $column-base-width: 100% / $columns;
 
     [class*="col-"] {
       min-height: 1px;
-      width: $column-base-width;
+      width: 8.33%;
     }
 
-    @for $i from 1 through $columns {
+    @for $i from 1 through 12 {
       .col-#{$i} {
-        width: $column-base-width * $i;
+        width: 8.33% * $i;
+      }
+    }
+  }
+  @media only screen and (max-width: 990px) {
+    [class*="col-"] {
+      min-height: 1px;
+      width: 12.5%;
+    }
+
+    @for $i from 1 through 8 {
+      .col-#{$i} {
+        width: 12.5% * $i;
       }
     }
   }

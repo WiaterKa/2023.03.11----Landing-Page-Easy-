@@ -15,12 +15,13 @@ body {
   max-height: 1845px;
   margin-inline: auto;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .btn:hover {
-  filter: brightness(150%);
+  opacity: 0.6;
 }
 
 header .btn_hero:hover {
-  filter: brightness(150%);
+  opacity: 0.6;
 }

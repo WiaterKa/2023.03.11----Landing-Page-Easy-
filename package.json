@@ -1,9 +1,9 @@
 {
   "name": "my-project",
-  "source": "index.html",
+  "source": "index_main.html",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel index_main.html",
+    "build": "parcel build index_main.html"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

@@ -5,6 +5,14 @@ footer {
   align-items: center;
   background-color: $color-secondary;
   padding-inline: 165px;
+
+  @media only screen and (max-width: 500px) {
+    padding-inline: 16px;
+  }
+
+  @media only screen and (max-width: 750px) {
+    padding-inline: 40px;
+  }
 }
 
 .btn_footer {
